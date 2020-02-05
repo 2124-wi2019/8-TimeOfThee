@@ -7,15 +7,15 @@ Creation date: Feb 5, 2020
 */
 /* WRITE YOUR SOLUTION BETWEEN THIS LINE */
 
-const MathUtility={
+const MathUtility={//does
     getAreaOfCircle:function(rad){
-        return (Math.PI*Math.pow(rad,2));
+        return (Math.PI*Math.pow(rad,2));//method for circle area
     },
     getAreaOfSquare:function(len){
-        return Math.pow(len,2);
+        return Math.pow(len,2);//method for square area
     },
     getAreaOfTriangle:function(len,hei){
-        return (len*hei)/2;
+        return (len*hei)/2;//method for triangle area
     }
 };
 
